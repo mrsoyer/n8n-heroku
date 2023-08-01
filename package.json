@@ -4,9 +4,11 @@
   "description": "My custom n8n project with n8n-nodes-puppeteer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "mkdir ./.cache && mv /app/.cache/puppeteer ./.cache"
   },
   "dependencies": {
     "n8n-nodes-puppeteer": "0.6.3"
   }
+  
 }

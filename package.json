@@ -1,0 +1,12 @@
+{
+  "name": "my-n8n-project",
+  "version": "1.0.0",
+  "description": "My custom n8n project with n8n-nodes-puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "n8n-nodes-puppeteer": "0.6.3"
+  }
+}
